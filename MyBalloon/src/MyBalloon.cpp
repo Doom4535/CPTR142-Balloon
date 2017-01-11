@@ -3,7 +3,7 @@
 // Author      : Aaron C.
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Balloon v1
 //============================================================================
 
 #include <iostream>
