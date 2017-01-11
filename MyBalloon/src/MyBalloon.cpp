@@ -14,7 +14,7 @@
 
 
 int main(){
-	Balloon B;
+	Balloon B, C, D;
 	B.state();
 	B.ascend( 10 );
 	B.state();
@@ -31,6 +31,10 @@ int main(){
 	B.setRadius(2);
 	current_radius = B.getRadius();
 	std::cout << current_radius << std::endl;
+	C.setColor("blue");
+	D.setAltitutude(8934.3);
+	C.state();
+	D.state();
 
-return 0;
+	return 0;
 }

@@ -36,10 +36,22 @@ class Balloon
 		double getRadius(){
 			return(radius);
 		}
+		double getAltitude(){
+			return(altitude);
+		}
+		std::string getColor(){
+			return(color);
+		}
 		void setRadius(double r){
 			if (r > 0){
 				radius = r;
 			}
+		}
+		void setAltitutude(double a){
+			altitude = a;
+		}
+		void setColor(std::string c){
+			color = c;
 		}
 };
 
