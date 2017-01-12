@@ -1,20 +1,19 @@
-//============================================================================
-// Name        : MyBalloon.cpp
-// Author      : Aaron C.
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
+/*
+ * Driver.cpp
+ *
+ *  Created on: Jan 11, 2017
+ *      Author: aaron
+ */
 
+#include "implementation.h"
 #include <iostream>
 #include <string>
-#include "balloon.h"
-
-//using namespace std;
-
 
 int main(){
-	Balloon B, C, D;
+	//Balloon B, C, D;
+	Balloon B("red", 1, 0);
+	Balloon C("blue", 2, 0);
+	Balloon D("orange", 1, 15);
 	B.state();
 	B.ascend( 10 );
 	B.state();
@@ -38,3 +37,5 @@ int main(){
 
 	return 0;
 }
+
+
