@@ -25,7 +25,7 @@ class Balloon
 			altitude = a;
 		}
 		*/
-		Balloon(std::string, double r, double a);
+		Balloon(std::string color = "red", double r = 1, double a = 0);
 		void ascend(double feet);
 		void descend(double feet);
 		void pop( );

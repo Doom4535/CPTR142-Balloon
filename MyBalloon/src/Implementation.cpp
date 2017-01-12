@@ -37,8 +37,8 @@ void Balloon::pop( ){
 	altitude = 0.0;
 }
 void Balloon::state(){
-	std::cout << " color: " << color << std::endl;
-	std::cout << " radius: " << radius << std::endl;
+	std::cout << "color: " << color << std::endl;
+	std::cout << "radius: " << radius << std::endl;
 	std::cout << "altitude: " << altitude << std::endl;
 }
 double Balloon::getRadius(){

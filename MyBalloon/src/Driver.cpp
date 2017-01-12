@@ -10,10 +10,10 @@
 #include <string>
 
 int main(){
-	//Balloon B, C, D;
-	Balloon B("red", 1, 0);
-	Balloon C("blue", 2, 0);
-	Balloon D("orange", 1, 15);
+	Balloon B, C, D;
+	Balloon E("red", 1, 0);
+	Balloon F("blue", 2, 0);
+	Balloon G("orange", 1, 15);
 	B.state();
 	B.ascend( 10 );
 	B.state();
@@ -34,6 +34,9 @@ int main(){
 	D.setAltitutude(8934.3);
 	C.state();
 	D.state();
+	E.state();
+	F.state();
+	G.state();
 
 	return 0;
 }
